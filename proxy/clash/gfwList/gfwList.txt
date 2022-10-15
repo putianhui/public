@@ -1,3 +1,4 @@
 payload:
   - '+.linuxfoundation.org'
   - 'event.api.drift.com'
+  - '+.textnow.com'
