@@ -3,3 +3,5 @@ payload:
   - 'event.api.drift.com'
   - '+.textnow.com'
   - '+.racknerd.com'
+  - '+..io'
+  - '+..net'
