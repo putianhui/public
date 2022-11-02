@@ -5,3 +5,4 @@ payload:
   - '+.racknerd.com'
   - '+..io'
   - '+..net'
+  - '+..moe.ms'
