@@ -6,3 +6,4 @@ payload:
   - '+..io'
   - '+..net'
   - '+..moe.ms'
+  - '+..grafana.com'
