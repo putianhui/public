@@ -7,3 +7,4 @@ payload:
   - '+..net'
   - '+..moe.ms'
   - '+..grafana.com'
+  - '+..openai.com'
