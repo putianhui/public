@@ -74,6 +74,9 @@ function getData()
 
 
 function getCert (){
+    # 创建Trojan-go目录
+    sudo mkdir -p /etc/trojan-go
+    
     apt-get install -y socat openssl
     curl -sL https://get.acme.sh | sh -s email=hijk.pw@protonmail.ch
     source ~/.bashrc
