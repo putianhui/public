@@ -33,7 +33,7 @@ rule-providers:
   putianhui:
     type: http
     behavior: domain
-    url: 'https://raw.githubusercontent.com/putianhui/public/master/proxy/clash/gfwList/gfwList.txt'
+    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/gfwList.txt'
     path: ./ruleset/putianhui.yaml
     interval: 86400
   reject:
