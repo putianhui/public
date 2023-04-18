@@ -33,91 +33,91 @@ rule-providers:
   putianhui:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/gfwList.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/gfwList.txt'
     path: ./ruleset/putianhui.yaml
     interval: 86400
   reject:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/reject.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/reject.txt'
     path: ./ruleset/reject.yaml
     interval: 86400
   icloud:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/icloud.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/icloud.txt'
     path: ./ruleset/icloud.yaml
     interval: 86400
   apple:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/apple.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/apple.txt'
     path: ./ruleset/apple.yaml
     interval: 86400
   google:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/google.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/google.txt'
     path: ./ruleset/google.yaml
     interval: 86400
   proxy:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/proxy.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/proxy.txt'
     path: ./ruleset/proxy.yaml
     interval: 86400
   direct:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/direct.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/direct.txt'
     path: ./ruleset/direct.yaml
     interval: 86400
   private:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/private.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/private.txt'
     path: ./ruleset/private.yaml
     interval: 86400
   gfw:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/gfw.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/gfw.txt'
     path: ./ruleset/gfw.yaml
     interval: 86400
   greatfire:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/greatfire.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/greatfire.txt'
     path: ./ruleset/greatfire.yaml
     interval: 86400
   tld-not-cn:
     type: http
     behavior: domain
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/tld-not-cn.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/tld-not-cn.txt'
     path: ./ruleset/tld-not-cn.yaml
     interval: 86400
   telegramcidr:
     type: http
     behavior: ipcidr
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/telegramcidr.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/telegramcidr.txt'
     path: ./ruleset/telegramcidr.yaml
     interval: 86400
   cncidr:
     type: http
     behavior: ipcidr
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/cncidr.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/cncidr.txt'
     path: ./ruleset/cncidr.yaml
     interval: 86400
   lancidr:
     type: http
     behavior: ipcidr
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/lancidr.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/lancidr.txt'
     path: ./ruleset/lancidr.yaml
     interval: 86400
   applications:
     type: http
     behavior: classical
-    url: 'https://gitee.com/putianhui/public/raw/master/proxy/clash/gfwList/applications.txt'
+    url: 'https://oss.putianhui.cn/public/proxy/clash/gfwList/applications.txt'
     path: ./ruleset/applications.yaml
     interval: 86400
 
