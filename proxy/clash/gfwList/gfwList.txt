@@ -4,6 +4,7 @@ payload:
   - '+.textnow.com'
   - '+.racknerd.com'
   - '+..io'
+  - '+..tech'
   - '+..net'
   - '+..moe.ms'
   - '+..grafana.com'
