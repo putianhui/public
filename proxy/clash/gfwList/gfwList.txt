@@ -9,3 +9,5 @@ payload:
   - '+..moe.ms'
   - '+..grafana.com'
   - '+..openai.com'
+  - '+..livesexhouse.com'
+  - 'livesexhouse.com'
