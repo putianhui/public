@@ -12,3 +12,4 @@ payload:
   - '+..livesexhouse.com'
   - 'livesexhouse.com'
   - '+..reallifecam.com'
+  - '+..naiveui.com'
